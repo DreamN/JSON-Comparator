@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>JSON Comparator</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.css">
+    <link rel="stylesheet" href="css/bulma.min.css">
     <style media="screen">
       #noti{
         display: none;
@@ -57,6 +57,22 @@
               <tbody>
               </tbody>
             </table>
+          </div>
+
+          <div class="column">
+            <div class="field">
+              <p class="control">
+                <button class="button is-success" onclick="onClickMerge()">Merge</button>
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="field">
+              <label class="label">Merged JSON</label>
+              <p class="control">
+                <textarea class="textarea" id="json_merge" placeholder="Merged JSON will be here!">{}</textarea>
+              </p>
+            </div>
           </div>
       </div>
     </div>
