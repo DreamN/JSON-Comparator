@@ -1,0 +1,22 @@
+{
+  "name": "json-comparator",
+  "version": "0.0.1",
+  "description": "It's JSON Comparator",
+  "main": "app.js",
+  "dependencies": {
+    "bulma": "^0.7.1"
+  },
+  "devDependencies": {
+    "bulma": "^0.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DreamN/JSON-Comparator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DreamN/JSON-Comparator/issues"
+  },
+  "homepage": "https://github.com/DreamN/JSON-Comparator#readme"
+}
